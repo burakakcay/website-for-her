@@ -98,13 +98,3 @@ button {
   font-size: 14px;
   padding: 10px 20px;
 }
-
-#imageDisplay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 80%;
-  max-height: 80%;
-  display: none;
-}
