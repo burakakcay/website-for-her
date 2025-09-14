@@ -37,7 +37,7 @@ html, body {
   border-color: brown;
 }
 
-/* Pop up stuff */
+/* Pop up (modal) stuff */
 
 .modal-container {
   position: fixed;
@@ -97,4 +97,19 @@ button {
   cursor: pointer;
   font-size: 14px;
   padding: 10px 20px;
+}
+
+/* Geçici görünür mod: sayfaya .debug sınıfı eklendiğinde hotspotlar kırmızı saydam görünür */
+.debug .hotspot {
+  fill: rgba(255, 0, 0, 0.18);
+  stroke: rgba(255, 0, 0, 0.6);
+  stroke-width: 2;
+}
+
+/* Normalde görünmez (canlıda böyle bırakırsın) */
+.hotspot {
+  fill: rgba(255,255,255,0);
+  stroke: rgba(255,255,255,0);
+  cursor: pointer;
+  transition: fill .2s ease, stroke .2s ease;
 }

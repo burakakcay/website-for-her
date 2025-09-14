@@ -7,7 +7,7 @@
     </head>
     <body>
 
-        <div class="modal-container">
+<!--         <div class="modal-container">
             <div class="modal">
                 <h1>Hoş Geldin Güzel Sevgilim</h1>
                 <p>Bu sayfa sana olan sevgimi ifade etmek için hazırlandı. Umarım beğenirsin!</p>
@@ -15,7 +15,23 @@
                 <p>Her zaman yanımda olmanı ve birlikte nice güzel anılar biriktirmeyi diliyorum.</p>
                 <button id="closeModal">Kapat</button>
             </div>
-        </div>
+        </div> -->
+
+        <button id="toggleDebug" style="position:fixed; z-index:10; top:12px; right:12px;">
+            Debug: Kapalı
+        </button>
+        
+        <svg viewBox="0 0 1000 600" class="map">
+            <image href="img/orman.jpg" x="0" y="0" width="1000" height="600" />
+
+             <a xlink:href="sayfalar/patika-kuzey.html" aria-label="Kuzey Patika">
+                <rect class="hotspot" x="260" y="80" width="200" height="50" rx="6" ry="6" />
+            </a>
+
+            <a xlink:href="sayfalar/golet.html" aria-label="Gölet">
+                <rect class="hotspot" x="530" y="220" width="300" height="100" rx="6" ry="6" />
+            </a>
+        </svg>
 
         <script src="script.js"></script>
 
